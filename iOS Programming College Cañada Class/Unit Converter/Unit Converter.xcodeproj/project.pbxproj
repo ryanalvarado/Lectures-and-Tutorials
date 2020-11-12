@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC928B818C9068600A17F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928B718C9068600A17F04 /* Foundation.framework */; };
+		DDC928BA18C9068600A17F04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928B918C9068600A17F04 /* CoreGraphics.framework */; };
+		DDC928BC18C9068600A17F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928BB18C9068600A17F04 /* UIKit.framework */; };
+		DDC928C218C9068600A17F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC928C018C9068600A17F04 /* InfoPlist.strings */; };
+		DDC928C418C9068600A17F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC928C318C9068600A17F04 /* main.m */; };
+		DDC928C818C9068600A17F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC928C718C9068600A17F04 /* AppDelegate.m */; };
+		DDC928CB18C9068600A17F04 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC928C918C9068600A17F04 /* Main_iPhone.storyboard */; };
+		DDC928CE18C9068600A17F04 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC928CC18C9068600A17F04 /* Main_iPad.storyboard */; };
+		DDC928D118C9068600A17F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC928D018C9068600A17F04 /* ViewController.m */; };
+		DDC928D318C9068600A17F04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC928D218C9068600A17F04 /* Images.xcassets */; };
+		DDC928DA18C9068600A17F04 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928D918C9068600A17F04 /* XCTest.framework */; };
+		DDC928DB18C9068600A17F04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928B718C9068600A17F04 /* Foundation.framework */; };
+		DDC928DC18C9068600A17F04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC928BB18C9068600A17F04 /* UIKit.framework */; };
+		DDC928E418C9068700A17F04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC928E218C9068700A17F04 /* InfoPlist.strings */; };
+		DDC928E618C9068700A17F04 /* Unit_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC928E518C9068700A17F04 /* Unit_ConverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC928DD18C9068600A17F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC928AC18C9068600A17F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC928B318C9068600A17F04;
+			remoteInfo = "Unit Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC928B418C9068600A17F04 /* Unit Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC928B718C9068600A17F04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDC928B918C9068600A17F04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDC928BB18C9068600A17F04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DDC928BF18C9068600A17F04 /* Unit Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Converter-Info.plist"; sourceTree = "<group>"; };
+		DDC928C118C9068600A17F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC928C318C9068600A17F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDC928C518C9068600A17F04 /* Unit Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unit Converter-Prefix.pch"; sourceTree = "<group>"; };
+		DDC928C618C9068600A17F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDC928C718C9068600A17F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDC928CA18C9068600A17F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DDC928CD18C9068600A17F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DDC928CF18C9068600A17F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDC928D018C9068600A17F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDC928D218C9068600A17F04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDC928D818C9068600A17F04 /* Unit ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC928D918C9068600A17F04 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDC928E118C9068700A17F04 /* Unit ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit ConverterTests-Info.plist"; sourceTree = "<group>"; };
+		DDC928E318C9068700A17F04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDC928E518C9068700A17F04 /* Unit_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unit_ConverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC928B118C9068600A17F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928BA18C9068600A17F04 /* CoreGraphics.framework in Frameworks */,
+				DDC928BC18C9068600A17F04 /* UIKit.framework in Frameworks */,
+				DDC928B818C9068600A17F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC928D518C9068600A17F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928DA18C9068600A17F04 /* XCTest.framework in Frameworks */,
+				DDC928DC18C9068600A17F04 /* UIKit.framework in Frameworks */,
+				DDC928DB18C9068600A17F04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC928AB18C9068600A17F04 = {
+			isa = PBXGroup;
+			children = (
+				DDC928BD18C9068600A17F04 /* Unit Converter */,
+				DDC928DF18C9068600A17F04 /* Unit ConverterTests */,
+				DDC928B618C9068600A17F04 /* Frameworks */,
+				DDC928B518C9068600A17F04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC928B518C9068600A17F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928B418C9068600A17F04 /* Unit Converter.app */,
+				DDC928D818C9068600A17F04 /* Unit ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC928B618C9068600A17F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928B718C9068600A17F04 /* Foundation.framework */,
+				DDC928B918C9068600A17F04 /* CoreGraphics.framework */,
+				DDC928BB18C9068600A17F04 /* UIKit.framework */,
+				DDC928D918C9068600A17F04 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC928BD18C9068600A17F04 /* Unit Converter */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928C618C9068600A17F04 /* AppDelegate.h */,
+				DDC928C718C9068600A17F04 /* AppDelegate.m */,
+				DDC928C918C9068600A17F04 /* Main_iPhone.storyboard */,
+				DDC928CC18C9068600A17F04 /* Main_iPad.storyboard */,
+				DDC928CF18C9068600A17F04 /* ViewController.h */,
+				DDC928D018C9068600A17F04 /* ViewController.m */,
+				DDC928D218C9068600A17F04 /* Images.xcassets */,
+				DDC928BE18C9068600A17F04 /* Supporting Files */,
+			);
+			path = "Unit Converter";
+			sourceTree = "<group>";
+		};
+		DDC928BE18C9068600A17F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928BF18C9068600A17F04 /* Unit Converter-Info.plist */,
+				DDC928C018C9068600A17F04 /* InfoPlist.strings */,
+				DDC928C318C9068600A17F04 /* main.m */,
+				DDC928C518C9068600A17F04 /* Unit Converter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDC928DF18C9068600A17F04 /* Unit ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928E518C9068700A17F04 /* Unit_ConverterTests.m */,
+				DDC928E018C9068700A17F04 /* Supporting Files */,
+			);
+			path = "Unit ConverterTests";
+			sourceTree = "<group>";
+		};
+		DDC928E018C9068700A17F04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDC928E118C9068700A17F04 /* Unit ConverterTests-Info.plist */,
+				DDC928E218C9068700A17F04 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC928B318C9068600A17F04 /* Unit Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC928E918C9068700A17F04 /* Build configuration list for PBXNativeTarget "Unit Converter" */;
+			buildPhases = (
+				DDC928B018C9068600A17F04 /* Sources */,
+				DDC928B118C9068600A17F04 /* Frameworks */,
+				DDC928B218C9068600A17F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Converter";
+			productName = "Unit Converter";
+			productReference = DDC928B418C9068600A17F04 /* Unit Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC928D718C9068600A17F04 /* Unit ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC928EC18C9068700A17F04 /* Build configuration list for PBXNativeTarget "Unit ConverterTests" */;
+			buildPhases = (
+				DDC928D418C9068600A17F04 /* Sources */,
+				DDC928D518C9068600A17F04 /* Frameworks */,
+				DDC928D618C9068600A17F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC928DE18C9068600A17F04 /* PBXTargetDependency */,
+			);
+			name = "Unit ConverterTests";
+			productName = "Unit ConverterTests";
+			productReference = DDC928D818C9068600A17F04 /* Unit ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC928AC18C9068600A17F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ryan Alvarado";
+				TargetAttributes = {
+					DDC928D718C9068600A17F04 = {
+						TestTargetID = DDC928B318C9068600A17F04;
+					};
+				};
+			};
+			buildConfigurationList = DDC928AF18C9068600A17F04 /* Build configuration list for PBXProject "Unit Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC928AB18C9068600A17F04;
+			productRefGroup = DDC928B518C9068600A17F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC928B318C9068600A17F04 /* Unit Converter */,
+				DDC928D718C9068600A17F04 /* Unit ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC928B218C9068600A17F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928CE18C9068600A17F04 /* Main_iPad.storyboard in Resources */,
+				DDC928D318C9068600A17F04 /* Images.xcassets in Resources */,
+				DDC928CB18C9068600A17F04 /* Main_iPhone.storyboard in Resources */,
+				DDC928C218C9068600A17F04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC928D618C9068600A17F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928E418C9068700A17F04 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC928B018C9068600A17F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928D118C9068600A17F04 /* ViewController.m in Sources */,
+				DDC928C818C9068600A17F04 /* AppDelegate.m in Sources */,
+				DDC928C418C9068600A17F04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC928D418C9068600A17F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC928E618C9068700A17F04 /* Unit_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC928DE18C9068600A17F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC928B318C9068600A17F04 /* Unit Converter */;
+			targetProxy = DDC928DD18C9068600A17F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC928C018C9068600A17F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC928C118C9068600A17F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DDC928C918C9068600A17F04 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC928CA18C9068600A17F04 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC928CC18C9068600A17F04 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC928CD18C9068600A17F04 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC928E218C9068700A17F04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC928E318C9068700A17F04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC928E718C9068700A17F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC928E818C9068700A17F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC928EA18C9068700A17F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Converter/Unit Converter-Prefix.pch";
+				INFOPLIST_FILE = "Unit Converter/Unit Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DDC928EB18C9068700A17F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Converter/Unit Converter-Prefix.pch";
+				INFOPLIST_FILE = "Unit Converter/Unit Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DDC928ED18C9068700A17F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unit Converter.app/Unit Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Converter/Unit Converter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unit ConverterTests/Unit ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDC928EE18C9068700A17F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unit Converter.app/Unit Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unit Converter/Unit Converter-Prefix.pch";
+				INFOPLIST_FILE = "Unit ConverterTests/Unit ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC928AF18C9068600A17F04 /* Build configuration list for PBXProject "Unit Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC928E718C9068700A17F04 /* Debug */,
+				DDC928E818C9068700A17F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC928E918C9068700A17F04 /* Build configuration list for PBXNativeTarget "Unit Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC928EA18C9068700A17F04 /* Debug */,
+				DDC928EB18C9068700A17F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDC928EC18C9068700A17F04 /* Build configuration list for PBXNativeTarget "Unit ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC928ED18C9068700A17F04 /* Debug */,
+				DDC928EE18C9068700A17F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC928AC18C9068600A17F04 /* Project object */;
+}
